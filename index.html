@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <nav class="display_flex">
+        <!-- 1st child of nav for heading -->
+        <h1>Customers</h1>
+    <div id="search_nav_child">
+        <i class="fa-brands fa-sistrix"></i>
+       <input type="search" id="input" placeholder="search Customers..."/>
+       </div>
+    </nav>
+        <table class="border_clr1" >
+            
+        <thead >
+            <tr >
+                <th>Name</th>
+                <th>Company</th>
+                <th id="campaigns">Campaigns</th>
+                <th id="spent">spent,$</th>
+            </tr>
+        </thead>
+
+        <tbody >
+            <!-- `<tr>
+                <td>Gracie Powell</td>
+                <td>ProPeak</td>
+                <td >6</td>
+                <td>20,852</td>
+                <td><button>`<i class="fa-regular fa-trash-can"></i>`</button></td>
+            </tr>`
+
+             <tr>
+                <td>Gracie Powell</td>
+                <td>ProPeak</td>
+                <td>6</td>
+                <td>20,852</td>
+                <td><button><i class="fa-regular fa-trash-can"></i></button></i></td>
+            </tr> -->
+        </tbody>
+
+        </table>   
+    
+    <div id="pagination">
+        <button id="prev">Prev</button>
+        <button id="pagenum">1</button>
+        <button id="nxt">Next</button>
+    </div>
+
+
+    <script src="project.js"></script>
+</body>
+</html>
